@@ -47,7 +47,7 @@ with open("True.csv") as csvfile:
                 wLower = w.lower()
                 wLowerLematized = lemmatizer.lemmatize(wLower)
                 body.append(wLowerLematized)
-        real = False
+        real = True
         
         news = (title, body, real)
         
